@@ -17,13 +17,13 @@ def create_result_sheet():
         percentage = (obtained / total_marks) * 100
         
         if percentage >= 90:
-            grade = 'A'
+            grade = 'A+'
         elif percentage >= 80:
-            grade = 'B'
+            grade = 'A'
         elif percentage >= 70:
-            grade = 'C'
+            grade = 'B'
         elif percentage >= 60:
-            grade = 'D'
+            grade = 'C'
         else:
             grade = 'F'
         
