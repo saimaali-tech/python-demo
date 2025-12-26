@@ -3,7 +3,7 @@ def create_result_sheet():
     students = []
     
     print("Enter details for 20 students:")
-    for i in range(5):
+    for i in range(10):
         name = input(f"Enter name of student {i+1}: ").strip()
         try:
             obtained = float(input(f"Enter obtained marks for {name} (out of {total_marks}): "))
