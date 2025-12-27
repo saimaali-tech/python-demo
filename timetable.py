@@ -21,13 +21,13 @@ def create_study_timetable():
             '15:00 - 16:00': 'Coding'
         },
         'Wednesday': {
-            '09:00 - 10:00': 'Chemistry',
-            '10:00 - 11:00': 'Biology',
+            '09:00 - 10:00': 'Exercises',
+            '10:00 - 11:00': 'Book reading',
             '11:00 - 12:00': 'Break',
-            '12:00 - 13:00': 'Mathematics',
+            '12:00 - 13:00': 'Coding',
             '13:00 - 14:00': 'Lunch',
-            '14:00 - 15:00': 'Physics',
-            '15:00 - 16:00': 'Geography'
+            '14:00 - 15:00': 'Online Courses',
+            '15:00 - 16:00': 'Coding'
         },
         'Thursday': {
             '09:00 - 10:00': 'Biology',
