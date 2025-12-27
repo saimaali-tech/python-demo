@@ -6,10 +6,10 @@ def create_study_timetable():
             '09:00 - 10:00': 'Exercises',
             '10:00 - 11:00': 'Book reading',
             '11:00 - 12:00': 'Break',
-            '12:00 - 13:00': 'Coding',
-            '13:00 - 14:00': 'Lunch',
-            '14:00 - 15:00': 'Online Courses',
-            '15:00 - 16:00': 'Coding'
+            '12:00 - 01:00': 'Coding',
+            '01:00 - 02:00': 'Lunch',
+            '02:00 - 03:00': 'Online Courses',
+            '03:00 - 04:00': 'Coding'
         },
         'Tuesday': {
             '09:00 - 10:00': 'Exercises',
