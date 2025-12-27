@@ -39,13 +39,13 @@ def create_study_timetable():
             '15:00 - 16:00': 'Coding'
         },
         'Friday': {
-            '09:00 - 10:00': 'Mathematics',
-            '10:00 - 11:00': 'Physics',
+            '09:00 - 10:00': 'Exercises',
+            '10:00 - 11:00': 'Book Reading',
             '11:00 - 12:00': 'Break',
-            '12:00 - 13:00': 'Chemistry',
+            '12:00 - 13:00': 'Coding',
             '13:00 - 14:00': 'Lunch',
-            '14:00 - 15:00': 'Biology',
-            '15:00 - 16:00': 'History'
+            '14:00 - 15:00': 'Online Courses',
+            '15:00 - 16:00': 'Coding'
         },
         'Saturday': {
             '09:00 - 10:00': 'Revision - Math',
