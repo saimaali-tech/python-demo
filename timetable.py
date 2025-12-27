@@ -57,10 +57,10 @@ def create_study_timetable():
             '15:00 - 16:00': 'Extracurricular'
         },
         'Sunday': {
-            '09:00 - 10:00': 'Rest',
-            '10:00 - 11:00': 'Light Revision',
+            '09:00 - 10:00': 'Exercise',
+            '10:00 - 11:00': 'Book Reading',
             '11:00 - 12:00': 'Break',
-            '12:00 - 13:00': 'Weekly Review',
+            '12:00 - 13:00': 'project work',
             '13:00 - 14:00': 'Lunch',
             '14:00 - 15:00': 'Relax',
             '15:00 - 16:00': 'Plan Next Week'
