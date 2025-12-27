@@ -48,8 +48,8 @@ def create_study_timetable():
             '15:00 - 16:00': 'Coding'
         },
         'Saturday': {
-            '09:00 - 10:00': 'Revision - Math',
-            '10:00 - 11:00': 'Revision - Science',
+            '09:00 - 10:00': 'Exercises',
+            '10:00 - 11:00': 'Book Reading',
             '11:00 - 12:00': 'Break',
             '12:00 - 13:00': 'Project Work',
             '13:00 - 14:00': 'Lunch',
