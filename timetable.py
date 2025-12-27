@@ -51,19 +51,19 @@ def create_study_timetable():
             '09:00 - 10:00': 'Exercises',
             '10:00 - 11:00': 'Book Reading',
             '11:00 - 12:00': 'Break',
-            '12:00 - 13:00': 'Project Work',
-            '13:00 - 14:00': 'Lunch',
-            '14:00 - 15:00': 'Free Study',
-            '15:00 - 16:00': 'Extracurricular'
+            '12:00 - 01:00': 'Project Work',
+            '01:00 - 02:00': 'Lunch',
+            '02:00 - 03:00': 'Free Study',
+            '03:00 - 04:00': 'Extracurricular'
         },
         'Sunday': {
             '09:00 - 10:00': 'Exercise',
             '10:00 - 11:00': 'Book Reading',
             '11:00 - 12:00': 'Break',
-            '12:00 - 13:00': 'project work',
-            '13:00 - 14:00': 'Lunch',
-            '14:00 - 15:00': 'Relax',
-            '15:00 - 16:00': 'Plan Next Week'
+            '12:00 - 01:00': 'project work',
+            '01:00 - 02:00': 'Lunch',
+            '02:00 - 03:00': 'Relax',
+            '03:00 - 04:00': 'Plan Next Week'
         }
     }
     
