@@ -19,9 +19,9 @@ button2 = tk.Button(root, text="Button 2", command=on_button2_click)
 button3 = tk.Button(root, text="Button 3", command=on_button3_click)
 
 # Pack the buttons into the window
-button1.pack(pady=10)
-button2.pack(pady=10)
-button3.pack(pady=10)
+button1.pack(pady=15)
+button2.pack(pady=15)
+button3.pack(pady=15)
 
 # Run the Tkinter event loop
 root.mainloop()
