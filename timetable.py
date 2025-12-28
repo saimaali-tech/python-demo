@@ -1,6 +1,5 @@
 def create_study_timetable():
-    # Define a simple weekly timetable structure
-    # Days as keys, and time slots with subjects as values
+  
     timetable = {
         'Monday': {
             '09:00 - 10:00': 'Exercises',
