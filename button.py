@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import font as tkfont
 
 def on_button1_click():
     print("Button 1 was clicked!")
@@ -13,15 +14,21 @@ def on_button3_click():
 root = tk.Tk()
 root.title("Multiple Buttons Example")
 
-# Create button widgets
-button1 = tk.Button(root, text="Button 1", command=on_button1_click)
-button2 = tk.Button(root, text="Button 2", command=on_button2_click)
-button3 = tk.Button(root, text="Button 3", command=on_button3_click)
+# Define a custom font
+custom_font = tkfont.Font(family="Arial", size=14, weight="bold")
 
-# Pack the buttons into the window
-button1.pack(pady=15)
-button2.pack(pady=15)
-button3.pack(pady=15)
+# Create button widgets with larger size, custom font, and colors
+button1 = tk.Button(root, text="Button 1", command=on_button1_click, width=20, height=2,
+                    font=custom_font, bg="blue", fg="white")
+button2 = tk.Button(root, text="Button 2", command=on_button2_click, width=20, height=2,
+                    font=custom_font, bg="green", fg="white")
+button3 = tk.Button(root, text="Button 3", command=on_button3_click, width=20, height=2,
+                    font=custom_font, bg="red", fg="white")
+
+# Pack the buttons into the window with some padding
+button1.pack(pady=10)
+button2.pack(pady=10)
+button3.pack(pady=10)
 
 # Run the Tkinter event loop
 root.mainloop()
