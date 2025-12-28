@@ -15,7 +15,7 @@ root = tk.Tk()
 root.title("Multiple Buttons Example")
 
 # Define a custom font
-custom_font = tkfont.Font(family="Arial", size=14, weight="bold")
+custom_font = tkfont.Font(family="Arial", size=15, weight="bold")
 
 # Create button widgets with larger size, custom font, and colors
 button1 = tk.Button(root, text="Button 1", command=on_button1_click, width=25, height=3,
