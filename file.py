@@ -3,10 +3,10 @@ import tkinter as tk
 # Create the main window
 root = tk.Tk()
 root.title("Centered Box Example")
-root.geometry("500x400")  # Set a fixed window size for better visualization
+root.geometry("600x500")  # Set a fixed window size for better visualization
 
 # Create a frame that acts like a box
-box_frame = tk.Frame(root, bg="lightblue", padx=20, pady=20, relief="raised")
+box_frame = tk.Frame(root, bg="lightgreen", padx=20, pady=20, relief="raised")
 box_frame.place(relx=0.5, rely=0.5, anchor="center")
 
 # Add a title label inside the frame
