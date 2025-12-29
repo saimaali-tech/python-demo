@@ -10,7 +10,7 @@ box_frame = tk.Frame(root, bg="lightgreen", padx=20, pady=20, relief="raised")
 box_frame.place(relx=0.5, rely=0.5, anchor="center")
 
 # Add a title label inside the frame
-title_label = tk.Label(box_frame, text="Cloud Specialist | AWS EC2, S3, RDS, Lambda", bg="lightblue", fg="black", 
+title_label = tk.Label(box_frame, text="Cloud Specialist | AWS EC2, S3, RDS, Lambda", bg="lightgreen", fg="black", 
                        font=("Arial", 16, "bold"))
 title_label.pack(anchor="center")
 
