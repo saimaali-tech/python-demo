@@ -15,7 +15,7 @@ title_label = tk.Label(box_frame, text="Cloud Specialist | AWS EC2, S3, RDS, Lam
 title_label.pack(anchor="center")
 
 # Add a description label inside the frame
-description_label = tk.Label(box_frame, text="This is a short description inside the box.", 
+description_label = tk.Label(box_frame, text="Hi there! I’m Saima Ali, a dedicated Cloud Engineer with 3+ years of experience and 10+ successfully delivered projects. I specialize in designing secure, scalable, and cost-optimized AWS cloud solutions that help businesses grow faster and operate smarter.", 
                              bg="lightblue", fg="black", font=("Arial", 12), wraplength=300)
 description_label.pack(anchor="center")
 
