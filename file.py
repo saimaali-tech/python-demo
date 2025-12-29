@@ -3,7 +3,7 @@ import tkinter as tk
 # Create the main window
 root = tk.Tk()
 root.title("Centered Box Example")
-root.geometry("400x300")  # Set a fixed window size for better visualization
+root.geometry("500x400")  # Set a fixed window size for better visualization
 
 # Create a frame that acts like a box
 box_frame = tk.Frame(root, bg="lightblue", padx=20, pady=20, relief="raised")
