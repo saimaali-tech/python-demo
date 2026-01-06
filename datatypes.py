@@ -41,16 +41,19 @@
 # for i in range(3):
 #     print(i)
 
-# Set Data Types
-numbers = {1, 2, 3, 4, 4}
-print(numbers)   # {1, 2, 3, 4}
-numbers.add(5)
-numbers.remove(2)
+# # Set Data Types
+# numbers = {1, 2, 3, 4, 4}
+# print(numbers)   # {1, 2, 3, 4}
+# numbers.add(5)
+# numbers.remove(2)
 
-# Mapping Data Type
-student = {
-    "name": "Saima",
-    "age": 22,
-    "course": "DevOps"
-}
-print(student["name"])
+# # Mapping Data Type
+# student = {
+#     "name": "Saima",
+#     "age": 22,
+#     "course": "DevOps"
+# }
+# print(student["name"])
+
+# Boolean Data Type
+is_logged_in = True
