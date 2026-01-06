@@ -34,3 +34,9 @@
 # tuple
 colors = ("red", "green", "blue")
 print(colors[0])   # red
+
+# range
+r = range(1, 6)
+print(list(r))   # [1, 2, 3, 4, 5]
+for i in range(3):
+    print(i)
