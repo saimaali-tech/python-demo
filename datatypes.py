@@ -55,9 +55,9 @@
 # }
 # print(student["name"])
 
-# Boolean Data Type
-is_logged_in = True
+# # Boolean Data Type
+# is_logged_in = True
 
-# None Data Type
-x = None
-print(type(x))   # <class 'NoneType'>
+# # None Data Type
+# x = None
+# print(type(x))   # <class 'NoneType'>
