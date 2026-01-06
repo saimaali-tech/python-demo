@@ -7,3 +7,9 @@
 a = 10
 b = -25
 print(type(b))   # <class 'int'>
+
+
+# float
+x = 10.5
+y = -3.14
+print(type(x))   # <class 'float'>
