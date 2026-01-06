@@ -22,3 +22,5 @@
 name = "Saima"
 msg = 'Hello World'
 print(name,msg)
+print(name[0])     # S
+print(name[1:4])   # aim
