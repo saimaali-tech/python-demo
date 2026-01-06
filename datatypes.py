@@ -24,3 +24,9 @@ msg = 'Hello World'
 print(name,msg)
 print(name[0])     # S
 print(name[1:4])   # aim
+
+# list
+fruits = ["apple", "banana", "cherry"]
+fruits.append("mango")
+fruits[1] = "orange"
+print(fruits)
