@@ -12,7 +12,7 @@ print(type(b))   # <class 'int'>
 # float
 x = 10.5
 y = -3.14
-print(type(x))   # <class 'float'>
+print(type(y))   # <class 'float'>
 
 # # complex
 # z = 3 + 4j
