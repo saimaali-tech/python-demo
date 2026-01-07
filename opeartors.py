@@ -18,3 +18,15 @@ print(x)   # 15
 
 x *= 2
 print(x)   # 30
+
+
+# Comparison (Relational) Operators
+
+a = 10
+b = 20
+
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # False
+print(a < b)    # True
+
