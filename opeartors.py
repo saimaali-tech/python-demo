@@ -71,5 +71,5 @@
 # print(status)
 
 # Operator Precedence
-result = 15+ 10 * 28
+result = 15- 10 /28
 print(result)   # 20 (multiplication first)
