@@ -4,8 +4,8 @@
 # what operations can be performed on it
 
 # Numeric Data Types
-a = 10
-b = -25
+a = 20
+b = -45
 print(type(b))   # <class 'int'>
 
 
