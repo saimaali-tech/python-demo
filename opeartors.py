@@ -48,3 +48,9 @@ print(a ^ b)   # 6
 print(~a)      # -6
 print(a << 1)  # 10
 print(a >> 1)  # 2
+
+# //Membership Operators
+numbers = [1, 2, 3, 4, 5]
+
+print(3 in numbers)        # True
+print(10 not in numbers)  # True
