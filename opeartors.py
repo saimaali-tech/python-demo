@@ -54,3 +54,13 @@ numbers = [1, 2, 3, 4, 5]
 
 print(3 in numbers)        # True
 print(10 not in numbers)  # True
+
+
+# Identity Operators
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a is b)      # True
+print(a is c)      # False
+print(a == c)      # True
