@@ -30,3 +30,11 @@ print(a != b)   # True
 print(a > b)    # False
 print(a < b)    # True
 
+
+# Logical Operators
+x = 5
+
+print(x > 3 and x < 10)   # True
+print(x > 10 or x < 8)    # True
+print(not(x > 3))         # False
+
