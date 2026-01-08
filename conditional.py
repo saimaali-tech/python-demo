@@ -59,14 +59,18 @@
 #     print("You can go outside")
 
 # Comparison Operators in Conditions
-x = 10
-y = 20
+# x = 10
+# y = 20
 
-if x != y:
-    print("x is not equal to y")
+# if x != y:
+#     print("x is not equal to y")
 
-    # Membership Conditions (in, not in)
-fruits = ["apple", "banana", "mango"]
+#     # Membership Conditions (in, not in)
+# fruits = ["apple", "banana", "mango"]
 
-if "apple" in fruits:
-    print("Apple is available")
+# if "apple" in fruits:
+#     print("Apple is available")
+
+# (not in)
+if "orange" not in fruits:
+    print("Orange is not available")
