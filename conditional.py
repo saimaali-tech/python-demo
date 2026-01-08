@@ -64,3 +64,9 @@ y = 20
 
 if x != y:
     print("x is not equal to y")
+
+    # Membership Conditions (in, not in)
+fruits = ["apple", "banana", "mango"]
+
+if "apple" in fruits:
+    print("Apple is available")
