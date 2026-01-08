@@ -85,7 +85,7 @@
 
 #  example
 username = "admin"
-password = "1234"
+password = "4567"
 
 if username == "admin" and password == "1234":
     print("Login successful")
