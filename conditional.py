@@ -25,36 +25,36 @@
 #     print("Fail")
 
 
-# Nested if (if inside another if)
-age = 22
-citizen = True
+# # Nested if (if inside another if)
+# age = 22
+# citizen = True
 
-if age >= 18:
-    if citizen:
-        print("You are eligible to vote")
-    else:
-        print("You must be a citizen")
-else:
-    print("You are underage")
+# if age >= 18:
+#     if citizen:
+#         print("You are eligible to vote")
+#     else:
+#         print("You must be a citizen")
+# else:
+#     print("You are underage")
 
-# Logical Operators in Conditionals
-# (and)
-age = 25
-has_id = True
+# # Logical Operators in Conditionals
+# # (and)
+# age = 25
+# has_id = True
 
-if age >= 18 and has_id:
-    print("Entry allowed")
+# if age >= 18 and has_id:
+#     print("Entry allowed")
 
 
-# (or)
-day = "Sunday"
+# # (or)
+# day = "Sunday"
 
-if day == "Saturday" or day == "Sunday":
-    print("It's a weekend")
+# if day == "Saturday" or day == "Sunday":
+#     print("It's a weekend")
 
-    # (not)
-    is_raining = False
+#     # (not)
+#     is_raining = False
 
-if not is_raining:
-    print("You can go outside")
+# if not is_raining:
+#     print("You can go outside")
 
