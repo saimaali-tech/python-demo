@@ -36,3 +36,10 @@ if age >= 18:
         print("You must be a citizen")
 else:
     print("You are underage")
+
+# Logical Operators in Conditionals
+age = 25
+has_id = True
+
+if age >= 18 and has_id:
+    print("Entry allowed")
