@@ -71,6 +71,13 @@
 # if "apple" in fruits:
 #     print("Apple is available")
 
-# (not in)
-if "orange" not in fruits:
-    print("Orange is not available")
+# # (not in)
+# if "orange" not in fruits:
+#     print("Orange is not available")
+
+
+# Ternary Conditional (One-Line if)
+age = 17
+
+status = "Adult" if age >= 18 else "Minor"
+print(status)
