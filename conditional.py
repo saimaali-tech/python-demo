@@ -51,3 +51,10 @@ day = "Sunday"
 
 if day == "Saturday" or day == "Sunday":
     print("It's a weekend")
+
+    # (not)
+    is_raining = False
+
+if not is_raining:
+    print("You can go outside")
+
