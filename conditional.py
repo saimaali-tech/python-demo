@@ -77,7 +77,17 @@
 
 
 # Ternary Conditional (One-Line if)
-age = 17
+# age = 17
 
-status = "Adult" if age >= 18 else "Minor"
-print(status)
+# status = "Adult" if age >= 18 else "Minor"
+# print(status)
+
+
+#  example
+username = "admin"
+password = "1234"
+
+if username == "admin" and password == "1234":
+    print("Login successful")
+else:
+    print("Invalid credentials")
