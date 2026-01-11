@@ -10,3 +10,8 @@ name = "Python"
 
 for char in name:
     print(char)
+
+
+# Loop with range()
+for i in range(5):
+    print(i)
