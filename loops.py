@@ -15,3 +15,9 @@ for char in name:
 # Loop with range()
 for i in range(5):
     print(i)
+
+
+# range(stop)
+range(5)   # 0 to 4
+range(2, 6)  # 2 to 5
+range(1, 10, 2)  # 1, 3, 5, 7, 9
