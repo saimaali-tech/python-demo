@@ -40,3 +40,9 @@ for i in range(5):
     if i == 2:
         continue
     print(i)
+
+# continue Statement
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
