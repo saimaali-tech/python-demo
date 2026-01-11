@@ -46,3 +46,8 @@ for i in range(5):
     if i == 2:
         continue
     print(i)
+
+# Nested Loops (Loop inside a Loop)
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
