@@ -48,12 +48,12 @@ for i in range(5):
     print(i)
 
 # Nested Loops (Loop inside a Loop)
-for i in range(1, 4):
+for i in range(4, 6):
     for j in range(1, 4):
         print(i, j)
 
 # Loop with else (Less Known but Important)
-for i in range(3):
+for i in range(8):
     print(i)
 else:
     print("Loop completed successfully")
