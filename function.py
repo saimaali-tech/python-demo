@@ -7,3 +7,9 @@ def add():
     print(a + b)
 
 add()
+
+def greet(name):
+    print("Hello", name)
+
+greet("Saima")
+
