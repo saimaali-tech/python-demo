@@ -25,3 +25,10 @@
 
 # result = add(4, 6)
 # print(result)
+
+# Default Parameters
+def greet(name="User"):
+    print("Hello", name)
+
+greet()
+greet("Ali")
