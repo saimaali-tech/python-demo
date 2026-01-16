@@ -13,3 +13,8 @@
 
 # greet("Saima")
 
+# Functions with Multiple Parameters
+def add(a, b):
+    print(a + b)
+
+add(10, 20)
