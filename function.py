@@ -48,4 +48,10 @@ def add_numbers(*numbers):
 
 print(add_numbers(1, 2, 3, 4))
 
+# Arbitrary Keyword Arguments (**kwargs)
+def details(**info):
+    for key, value in info.items():
+        print(key, ":", value)
+
+details(name="Saima", role="DevOps", city="Lahore")
 
