@@ -39,3 +39,13 @@ def student(name, age):
 
 student(age=22, name="Saima")
 
+# Arbitrary Arguments
+def add_numbers(*numbers):
+    total = 0
+    for n in numbers:
+        total += n
+    return total
+
+print(add_numbers(1, 2, 3, 4))
+
+
