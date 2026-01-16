@@ -32,3 +32,10 @@ def greet(name="User"):
 
 greet()
 greet("Ali")
+
+# Keyword Arguments
+def student(name, age):
+    print(name, age)
+
+student(age=22, name="Saima")
+
