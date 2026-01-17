@@ -25,11 +25,11 @@ print(type(y))   # <class 'float'>
 # print(name[0])     # S
 # print(name[1:4])   # aim
 
-# # list
-# fruits = ["apple", "banana", "cherry"]
-# fruits.append("mango")
-# fruits[1] = "orange"
-# print(fruits)
+# list
+fruits = ["pineapple", "strawberry", "gauva"]
+fruits.append("mango")
+fruits[1] = "orange"
+print(fruits)
 
 # # tuple
 # colors = ("red", "green", "blue")
