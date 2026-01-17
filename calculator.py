@@ -16,7 +16,7 @@ class ScientificCalculator:
         self.display_frame = tk.Frame(self.root)
         self.display_frame.pack(expand=True, fill="both")
         
-        self.input_field = tk.Entry(self.display_frame, textvariable=self.input_text, font=('Arial', 24), bd=0, insertwidth=4, width=14, justify='right')
+        self.input_field = tk.Entry(self.display_frame, textvariable=self.input_text, font=('Arial', 24), bd=0, insertwidth=5, width=17, justify='right')
         self.input_field.pack(expand=True, fill="both", ipadx=10, ipady=10)
         
         # Buttons
