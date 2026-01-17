@@ -31,13 +31,13 @@ def greet(name="User"):
     print("Hello", name)
 
 greet()
-greet("Ali")
+greet("saima")
 
 # Keyword Arguments
 def student(name, age):
     print(name, age)
 
-student(age=22, name="Saima")
+student(age=21, name="Saima")
 
 # Arbitrary Arguments
 def add_numbers(*numbers):
