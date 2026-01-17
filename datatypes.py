@@ -27,8 +27,8 @@ print(type(y))   # <class 'float'>
 
 # list
 fruits = ["pineapple", "strawberry", "gauva"]
-fruits.append("mango")
-fruits[1] = "orange"
+fruits.append("pineapple")
+fruits[1] = "guava"
 print(fruits)
 
 # # tuple
