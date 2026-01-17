@@ -42,8 +42,8 @@ for i in range(5):
     print(i)
 
 # continue Statement
-for i in range(5):
-    if i == 2:
+for i in range(6):
+    if i == 5:
         continue
     print(i)
 
