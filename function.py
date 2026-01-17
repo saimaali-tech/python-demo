@@ -46,7 +46,7 @@ def add_numbers(*numbers):
         total += n
     return total
 
-print(add_numbers(1, 2, 3, 4))
+print(add_numbers(7, 8, 0, 4))
 
 # Arbitrary Keyword Arguments (**kwargs)
 def details(**info):
